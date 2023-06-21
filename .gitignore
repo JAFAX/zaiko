@@ -24,6 +24,9 @@ Build.bat
 # Module::Install
 inc/
 
+# don't import db files
+/db/*.db
+
 # ExtUtils::MakeMaker
 /blib/
 /_eumm/
